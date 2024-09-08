@@ -15,6 +15,14 @@ export const Intro = () => {
   const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
   const [greeting, setGreeting] = useState("");
 
+  const titles = [
+    " full-stack developer",
+    " frontend developer",
+    " backend developer",
+    " software engineer",
+  ];
+  const [index, setIndex] = useState(0);
+
   useEffect(() => {
     const currentHour = new Date().getHours();
     if (currentHour < 12) {
@@ -25,6 +33,14 @@ export const Intro = () => {
       setGreeting("Good Evening");
     }
   }, []);
+
+  // sliding text code 
+  // useEffect(() => {
+  //   const interval = setInterval(() => {
+  //     setIndex((prevIndex) => (prevIndex + 1) % titles.length);
+  //   }, 3000);
+  //   return () => clearInterval(interval);
+  // }, [titles.length]);
 
   return (
     <section className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]">
@@ -66,10 +82,24 @@ export const Intro = () => {
         animate={{ opacity: 1, y: 0 }}
       >
         <span className="font-bold">{`Hello ${greeting}, I'm Shyamalendu.`}</span>{" "}
-        {`I'm a`} <span className="font-bold">{`full-stack developer`}</span> {`with`}{" "}
-        <span className="font-bold">{`around 2 years`}</span>{` of experience. I enjoy
-        building `}<span className="italic">{`sites & apps`}</span>{`. My focus is`}{" "}
-        <span className="underline">{`React (Next.js)`}</span>.
+        {`I'm a`}{" "}
+        <span className="font-bold">{`full-stack developer`}</span> 
+        {/* Sliding text code */}
+        {/* <motion.span
+          key={index}
+          initial={{ y: -50, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          exit={{ y: 50, opacity: 0 }}
+          transition={{ duration: 0.5 }}
+          className="font-bold inline-block  md:w-[400px]"
+        >
+          {titles[index]}
+        </motion.span>{" "} */}
+        {`with`} <span className="font-bold">{`around 2 years`}</span>
+        {` of experience. I enjoy
+        building `}
+        <span className="italic">{`sites & apps`}</span>
+        {`. My focus is`} <span className="underline">{`React (Next.js)`}</span>.
       </motion.h1>
 
       <motion.div
