@@ -4,7 +4,7 @@ import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import foodie from "@/public/foodie.png";
 
 export const links = [
   {
@@ -80,7 +80,7 @@ export const projectsData = [
     description:
       "A food ordering app that filters dishes based on price and categories.",
     tags: ["Javascript", "React", "Tailwind"],
-    imageUrl: wordanalyticsImg,
+    imageUrl: foodie,
   },
 ] as const;
 
