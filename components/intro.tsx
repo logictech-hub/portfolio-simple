@@ -83,7 +83,7 @@ export const Intro = () => {
       >
         <span className="font-bold">{`Hello ${greeting}, I'm Shyamalendu.`}</span>{" "}
         {`I'm a`}{" "}
-        <span className="font-bold">{`full-stack developer`}</span> 
+        <span className="font-bold">{`full-stack developer `}</span> 
         {/* Sliding text code */}
         {/* <motion.span
           key={index}
@@ -98,8 +98,8 @@ export const Intro = () => {
         {`with`} <span className="font-bold">{`around 2 years`}</span>
         {` of experience. I enjoy
         building `}
-        <span className="italic">{`sites & apps`}</span>
-        {`. My focus is`} <span className="underline">{`React (Next.js)`}</span>.
+        <span className="italic">{`sites & apps`}</span>.
+        {/* {`. My focus is`} <span className="underline">{`React (Next.js)`}</span>. */}
       </motion.h1>
 
       <motion.div
@@ -138,7 +138,7 @@ export const Intro = () => {
 
         <a
           className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer border border-black/10 dark:bg-white/10 dark:text-white/60"
-          href="https://linkedin.com"
+          href="https://www.linkedin.com/in/shyamalendu-nayak-a8b0b0201/"
           target="_blank"
         >
           <BsLinkedin />
@@ -146,7 +146,7 @@ export const Intro = () => {
 
         <a
           className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer border border-black/10 dark:bg-white/10 dark:text-white/60"
-          href="https://github.com"
+          href="https://github.com/shyam0118"
           target="_blank"
         >
           <FaGithubSquare />
