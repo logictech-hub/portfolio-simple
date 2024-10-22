@@ -34,7 +34,7 @@ export const Intro = () => {
     }
   }, []);
 
-  // sliding text code 
+  // sliding text code
   // useEffect(() => {
   //   const interval = setInterval(() => {
   //     setIndex((prevIndex) => (prevIndex + 1) % titles.length);
@@ -43,7 +43,11 @@ export const Intro = () => {
   // }, [titles.length]);
 
   return (
-    <section className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]">
+    <section
+      ref={ref}
+      id="home"
+      className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]"
+    >
       <div className="flex justify-center items-center">
         <div className="relative">
           <motion.div
@@ -82,8 +86,7 @@ export const Intro = () => {
         animate={{ opacity: 1, y: 0 }}
       >
         <span className="font-bold">{`Hello ${greeting}, I'm Shyamalendu.`}</span>{" "}
-        {`I'm a`}{" "}
-        <span className="font-bold">{`full-stack developer `}</span> 
+        {`I'm a`} <span className="font-bold">{`full-stack developer `}</span>
         {/* Sliding text code */}
         {/* <motion.span
           key={index}
