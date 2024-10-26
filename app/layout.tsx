@@ -3,15 +3,21 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { Header } from "@/components/header";
 import ActiveSectionContextProvider from "@/context/active-section-context";
+import ThemeContextProvider from "@/context/theme-context";
+import Footer from "@/components/footer";
+import ThemeSwitch from "@/components/theme-switch";
+import { Toaster } from "react-hot-toast";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Shyamalendu Nayak - Fullstack Developer",
-  description: "Portfolio of Shyamalendu Nayak, a Fullstack Software Engineer specializing in React, Next.js, and modern web technologies.",
+  description:
+    "Portfolio of Shyamalendu Nayak, a Fullstack Software Engineer specializing in React, Next.js, and modern web technologies.",
   openGraph: {
     title: "Shyamalendu Nayak - Fullstack Developer",
-    description: "Explore the portfolio of Shyamalendu Nayak, showcasing projects, skills, and experience in Fullstack development using modern web technologies.",
+    description:
+      "Explore the portfolio of Shyamalendu Nayak, showcasing projects, skills, and experience in Fullstack development using modern web technologies.",
     url: "https://shyam.dev",
     images: [
       {
@@ -39,14 +45,20 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.className} bg-gray-900 text-gray-950 relative pt-28 sm:pt-36`}>
+      <body
+        className={`${inter.className} bg-gray-900 text-gray-950 relative pt-28 sm:pt-36`}
+      >
         <div className="bg-[#fbe2e3] absolute -z-10 top-[-6rem] right-[11rem] h-[31.25rem] w-[31.25rem] rounded-full blur-[10rem] sm:w-[68.75rem]"></div>
         <div className="bg-[#dbd7fb] absolute -z-10 top-[-1rem] left-[-35rem] h-[31.25rem] w-[31.25rem] rounded-full blur-[10rem] sm:w-[68.75rem] md:left-[-33rem] lg:left-[-28rem] xl:left-[15rem] 2xl:left-[5rem]"></div>
-        <ActiveSectionContextProvider>
-          <Header />
-          {children}
-          <div className="flex justify-center items-center pt-[200px]">Coming soon...</div>
-        </ActiveSectionContextProvider>
+        <ThemeContextProvider>
+          <ActiveSectionContextProvider>
+            <Header />
+            {children}
+            <Footer />
+            <Toaster position="top-right" />
+            {/* <ThemeSwitch /> */}
+          </ActiveSectionContextProvider>
+        </ThemeContextProvider>
       </body>
     </html>
   );
