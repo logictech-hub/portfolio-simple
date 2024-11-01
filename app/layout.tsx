@@ -29,13 +29,6 @@ export const metadata: Metadata = {
     ],
     siteName: "Shyamalendu Nayak's Portfolio",
   },
-  // twitter: {
-  //   card: "summary_large_image",
-  //   title: "Portfolio Preview of Shyamalendu Nayak",
-  //   description: "Shyamalendu Nayak's Portfolio",
-  //   images: ["https://yourwebsite.com/path-to-image.jpg"], // Replace with your image URL
-  //   site: "@your_twitter_handle", // Optional Twitter handle
-  // },
 };
 
 export default function RootLayout({
