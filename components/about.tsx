@@ -18,7 +18,7 @@ export default function About() {
       id="about"
     >
       <SectionHeading>About me</SectionHeading>
-      <p className="mb-3 text-gray-700">
+      <p className="mb-3 text-gray-500">
         After graduating with a degree in{" "}
         <span className="font-medium">Computer Science</span>, I decided to pursue my
         passion for programming. <span>My favorite part of programming</span> is the
@@ -28,7 +28,7 @@ export default function About() {
         <span className="font-medium">
           React, Next.js, Node.js, and MongoDB
         </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
+        . I am also familiar with TypeScript. I am always looking to
         learn new technologies. 
         {/* I am currently looking for a{" "}
         <span className="font-medium">full-time position</span> as a software
