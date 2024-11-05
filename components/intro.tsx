@@ -138,9 +138,17 @@ export const Intro = () => {
           />
           <span className="absolute inset-0 rounded-full bg-gray-900 z-0" />
         </a>
-
+      </motion.div>
+      <motion.div
+        className="flex flex-col sm:flex-row items-center justify-center gap-3 px-4 pt-4 text-lg font-medium"
+        initial={{ opacity: 0, y: 100 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{
+          delay: 0.2,
+        }}
+      >
         <a
-          className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer border border-black/10 dark:bg-white/10 dark:text-white/60"
+          className="bg-white p-4 text-gray-700 hover:text-gray-300 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer border border-black/10 bg-white/10 text-white/60"
           href="https://www.linkedin.com/in/shyamalendu-nayak-a8b0b0201/"
           target="_blank"
         >
@@ -148,7 +156,7 @@ export const Intro = () => {
         </a>
 
         <a
-          className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer border border-black/10 dark:bg-white/10 dark:text-white/60"
+          className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-300 active:scale-105 transition cursor-pointer border border-black/10 bg-white/10 text-white/60"
           href="https://github.com/shyam0118"
           target="_blank"
         >
