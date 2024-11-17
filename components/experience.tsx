@@ -10,6 +10,7 @@ import "react-vertical-timeline-component/style.min.css";
 import { experiencesData } from "@/lib/data";
 import { useSectionInView } from "@/lib/hooks";
 import { useTheme } from "@/context/theme-context";
+import { color } from "framer-motion";
 
 export default function Experience() {
   const { ref } = useSectionInView("Experience");
@@ -23,19 +24,17 @@ export default function Experience() {
           <React.Fragment key={index}>
             <VerticalTimelineElement
               contentStyle={{
-                background: "#f3f4f6",
+                background: "#29303d",
                 boxShadow: "none",
-                border: "1px solid rgba(0, 0, 0, 0.05)",
+                border: "1px solid #29303d",
                 textAlign: "left",
                 padding: "1.3rem 2rem",
               }}
               contentArrowStyle={{
-                borderRight:
-                  theme === "light"
-                    ? "0.4rem solid #9ca3af"
-                    : "0.4rem solid rgba(255, 255, 255, 0.5)",
+                borderRight: "#29303d",
               }}
               date={item.date}
+              dateClassName="timeline-date"
               icon={item.icon}
               iconStyle={{
                 background:
@@ -43,8 +42,10 @@ export default function Experience() {
                 fontSize: "1.5rem",
               }}
             >
-              <h3 className="font-semibold capitalize">{item.title}</h3>
-              <p className="font-normal !mt-0">{item.location}</p>
+              <h3 className="font-semibold capitalize text-white/75">
+                {item.title}
+              </h3>
+              <p className="font-normal !mt-0 text-white/75">{item.location}</p>
               <p className="!mt-1 !font-normal text-white/75">
                 {item.description}
               </p>

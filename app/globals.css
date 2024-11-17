@@ -13,3 +13,8 @@ html.dark {
 .borderBlack {
   @apply border border-black/10;
 }
+
+.timeline-date {
+  color: white;
+  font-size: 0.9rem;
+}
