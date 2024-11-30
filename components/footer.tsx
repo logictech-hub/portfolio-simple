@@ -7,7 +7,7 @@ export default function Footer() {
         &copy; 2024. All rights reserved.
       </small>
       <p className="text-xs">
-        <span className="font-semibold">Made with 💚</span>
+        <span className="font-semibold">Made with 💚 by Shyamalendu Nayak</span>
       </p>
     </footer>
   );
