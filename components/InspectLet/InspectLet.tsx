@@ -1,10 +1,17 @@
+"use client"
+
 import React, { useEffect } from "react";
 import insp, { install } from "inspectlet-es";
 import { useRouter } from "next/router";
 
 // ===== InspectLet ID =========
-// 1413794475 Inspectlet ID
-install(1848202761);
+// install(1848202761);
+// useEffect(() => {
+  if (typeof window !== "undefined") {
+    // Ensure install function is invoked only in the browser
+    install(1848202761);
+  }
+// }, []);
 
 const InspectLet = () => {
   // const router = useRouter();
