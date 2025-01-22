@@ -19,7 +19,7 @@
     "react-hot-toast": "^2.4.1",
     "react-icons": "^5.2.1",
     "react-intersection-observer": "^9.13.0",
-    "react-vertical-timeline-component": "^3.6.0"
+    "react-vertical-timeline-component": "2.6.2"
   },
   "devDependencies": {
     "@types/node": "^20",
