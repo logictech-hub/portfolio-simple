@@ -85,8 +85,8 @@ export const Intro = () => {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">{`Hello ${greeting}, I'm Shyamalendu.`}</span>{" "}
-        {`I'm a`} <span className="font-bold">{`full-stack developer `}</span>
+        <span className="font-bold">{`Hello ${greeting}, I'm Mykola Vytrykush.`}</span>{" "}
+        {`I'm a`} <span className="font-bold">{`Senior Full Stack Engineer `}</span>
         {/* Sliding text code */}
         {/* <motion.span
           key={index}
@@ -98,10 +98,9 @@ export const Intro = () => {
         >
           {titles[index]}
         </motion.span>{" "} */}
-        {`with`} <span className="font-bold">{`around 2 years`}</span>
-        {` of experience. I enjoy
-        building `}
-        <span className="italic">{`sites & apps`}</span>.
+        {`with`} <span className="font-bold">{`over 7 years`}</span>
+        {` of experience.`}
+        {/* <span className="italic">{`sites & apps`}</span>. */}
         {/* {`. My focus is`} <span className="underline">{`React (Next.js)`}</span>. */}
       </motion.h1>
 
