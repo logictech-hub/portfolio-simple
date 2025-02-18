@@ -55,7 +55,7 @@ export const Intro = () => {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ type: "tween", duration: 0.2 }}
           >
-            <Image
+            {/* <Image
               src={"/profile1.png"}
               alt="profile"
               width={150}
@@ -63,7 +63,7 @@ export const Intro = () => {
               quality={95}
               priority={true}
               className="rounded-full border-4 h-30 w-30 border-white object-cover shadow-2xl"
-            />
+            /> */}
           </motion.div>
           <motion.span
             className="text-3xl absolute bottom-0 right-0"
@@ -85,7 +85,7 @@ export const Intro = () => {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">{`Hello ${greeting}, I'm Mykola Vytrykush.`}</span>{" "}
+        <span className="font-bold">{`Hello ${greeting}, I'm Rivaldo Sabino.`}</span>{" "}
         {`I'm a`} <span className="font-bold">{`Senior Full Stack Engineer `}</span>
         {/* Sliding text code */}
         {/* <motion.span

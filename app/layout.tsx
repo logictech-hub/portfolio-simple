@@ -12,23 +12,23 @@ import { InspWrapper } from "@/components/InspectLet/InspectLetWrapper";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Shyamalendu Nayak - Fullstack Developer",
+  title: "Rivaldo Sabino - Software Engineer",
   description:
-    "Portfolio of Shyamalendu Nayak, a Fullstack Software Engineer specializing in React, Next.js, and modern web technologies.",
+    "Portfolio of Rivaldo Sabino, a Fullstack Software Engineer specializing in React, Next.js, and modern web technologies.",
   openGraph: {
-    title: "Shyamalendu Nayak - Fullstack Developer",
+    title: "Rivaldo Sabino - Software Engineer",
     description:
-      "Explore the portfolio of Shyamalendu Nayak, showcasing projects, skills, and experience in Fullstack development using modern web technologies.",
-    url: "https://shyam.dev",
+      "Explore the portfolio of Rivaldo Sabino, showcasing projects, skills, and experience in Fullstack development using modern web technologies.",
+    url: "https://mykola-vytrykush.vercel.app/",
     images: [
       {
         url: "metaDataImage.png",
         width: 800,
         height: 600,
-        alt: "Portfolio Preview of Shyamalendu Nayak",
+        alt: "Portfolio Preview of Rivaldo Sabino",
       },
     ],
-    siteName: "Shyamalendu Nayak's Portfolio",
+    siteName: "Rivaldo Sabino's Portfolio",
   },
 };
 
