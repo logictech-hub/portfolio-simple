@@ -19,7 +19,7 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3 text-gray-500">
-        I'm a <span className="font-large">curious and solution-driven engineer</span> who thrives on solving complex challenges and building meaningful software. 
+        I am a <span className="font-large">curious and solution-driven engineer</span> who thrives on solving complex challenges and building meaningful software. 
         Throughout my career, I have grown from <span className="font-large">hands-on development to mentoring and leading teams</span>, always fostering collaboration and continuous learning.
         I approach problems with adaptability and creativity, ensuring that both technology and teamwork drive impactful solutions.
         I believe that <span className="font-large">great software is built not just with code, but with innovation, shared knowledge, and a deep understanding of real-world needs.</span>
