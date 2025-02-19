@@ -18,3 +18,7 @@ html.dark {
   color: white;
   font-size: 0.9rem;
 }
+
+.font-large {
+  font-size: large;
+}

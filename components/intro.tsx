@@ -55,7 +55,7 @@ export const Intro = () => {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ type: "tween", duration: 0.2 }}
           >
-            {/* <Image
+            <Image
               src={"/profile1.png"}
               alt="profile"
               width={150}
@@ -63,7 +63,7 @@ export const Intro = () => {
               quality={95}
               priority={true}
               className="rounded-full border-4 h-30 w-30 border-white object-cover shadow-2xl"
-            /> */}
+            />
           </motion.div>
           <motion.span
             className="text-3xl absolute bottom-0 right-0"
@@ -148,7 +148,7 @@ export const Intro = () => {
       >
         <a
           className="bg-white p-4 text-gray-700 hover:text-gray-300 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer border border-black/10 bg-white/10 text-white/60"
-          href="https://www.linkedin.com/in/shyamalendu-nayak-a8b0b0201/"
+          href="https://www.linkedin.com/in/"
           target="_blank"
         >
           <BsLinkedin />
@@ -156,7 +156,7 @@ export const Intro = () => {
 
         <a
           className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-300 active:scale-105 transition cursor-pointer border border-black/10 bg-white/10 text-white/60"
-          href="https://github.com/shyam0118"
+          href="https://github.com/logictech-hub"
           target="_blank"
         >
           <FaGithubSquare />

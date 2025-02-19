@@ -19,17 +19,10 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3 text-gray-500">
-        After graduating with a Bachelor in{" "}
-        <span className="font-medium">Computer Science</span>, I decided to pursue my
-        passion for programming. <span>My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
-        <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
-        </span>
-        . I am also familiar with TypeScript. I am always looking to
-        learn new technologies. 
+        I'm a <span className="font-large">curious and solution-driven engineer</span> who thrives on solving complex challenges and building meaningful software. 
+        Throughout my career, I have grown from <span className="font-large">hands-on development to mentoring and leading teams</span>, always fostering collaboration and continuous learning.
+        I approach problems with adaptability and creativity, ensuring that both technology and teamwork drive impactful solutions.
+        I believe that <span className="font-large">great software is built not just with code, but with innovation, shared knowledge, and a deep understanding of real-world needs.</span>
         {/* I am currently looking for a{" "}
         <span className="font-medium">full-time position</span> as a software
         developer. */}

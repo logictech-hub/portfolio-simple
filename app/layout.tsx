@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     title: "Rivaldo Sabino - Software Engineer",
     description:
       "Explore the portfolio of Rivaldo Sabino, showcasing projects, skills, and experience in Fullstack development using modern web technologies.",
-    url: "https://mykola-vytrykush.vercel.app/",
+    url: "https://rivaldo-sabino.vercel.app/",
     images: [
       {
         url: "metaDataImage.png",
