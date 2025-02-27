@@ -42,23 +42,23 @@ export const experiencesData = [
     title: "Senior Full-Stack Developer @ Mercury Development LLC",
     location: "Miami, United States",
     description:
-      "I'm now working as a full-stack developer. My stack includes React, Next.js, TypeScript, Node.js, Tailwind and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
+      "",
+    icon: React.createElement(CgWorkAlt),
     date: "Apr 2022 - Present",
   },
   {
     title: "Full-Stack Developer @ BearPlex",
     location: "Delaware, United States",
     description:
-      "I worked on several projects using a tech stack that includes React.js, Next.js, Tailwind CSS, Node.js, and GraphQL.",
+      "",
     icon: React.createElement(CgWorkAlt),
     date: "Apr 2019 - Mar 2022",
   },
   {
-    title: "Junior & Software Developer @ High6",
+    title: "Software Developer @ High6",
     location: "Manila, Philippines",
     description:
-      "Completed my graduation in Computer Science and Engineering.",
+      "",
     icon: React.createElement(CgWorkAlt),
     date: "Jun 2017 - Mar 2018",
   },
@@ -66,7 +66,7 @@ export const experiencesData = [
     title: "University of the Cordilleras",
     location: "Philippines",
     description:
-      "Completed my graduation in Computer Science and Engineering.",
+      "Bachelor's Degree in Computer Science",
     icon: React.createElement(LuGraduationCap),
     date: "Nov 2017 - Mar 2018",
   },
